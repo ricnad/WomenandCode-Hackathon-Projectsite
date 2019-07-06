@@ -1,25 +1,227 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- bootstrap css -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <!-- fontawesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- gogle fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Baloo&display=swap" rel="stylesheet">
-  <!--popper-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <!-- jquery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <!-- bootstrap js -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  	<link rel="stylesheet" type="text/css" href="style/style.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- gogle fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo&display=swap" rel="stylesheet">
+    <!--popper-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
 
-
-	<title>Projectsite</title>
+    <title>Branch Out</title>
 
 </head>
 <body>
+<div class="container">
+    <div class="row">
+    <div class="sidenav text-center col-3">
+        <div class="user">
+            <img class="img-user rounded-circle mt-2" src="img/avatar2.jpg" alt="user image">
+            <p class="user-name mt-2 mb-0">First Lastname</p>
+            <p class="user-since mb-0">Member since:</p>
+            <p class="user-since">June 2019</p>
+        </div>
 
+            <div class="myBtnContainer ">
+                <button class="btn active  m-1" onclick="filterSelection('all')"> Show all</button>
+                <button class="btn  m-1" onclick="filterSelection('environment')"> Environment</button>
+                <button class="btn m-1" onclick="filterSelection('tech')"> Tech</button>
+                <button class="btn  m-1" onclick="filterSelection('art')"> Art</button>
+            </div>
+
+    </div>
+
+    <!-- Page content -->
+    <div class="main col-8">
+        <div class="ml-300">
+            <div class="filterDiv environment">BMW</div>
+            <div class="filterDiv colors tech">Orange</div>
+            <div class="filterDiv art">Volvo</div>
+            <div class="filterDiv art">Red</div>
+            <div class="filterDiv cars animals">Mustang</div>
+            <div class="filterDiv colors">Blue</div>
+            <div class="filterDiv animals">Cat</div>
+            <div class="filterDiv animals">Dog</div>
+            <div class="filterDiv fruits">Melon</div>
+            <div class="filterDiv fruits animals">Kiwi</div>
+            <div class="filterDiv fruits">Banana</div>
+            <div class="filterDiv fruits">Lemon</div>
+            <div class="filterDiv animals">Cow</div>
+        </div>
+
+        <!-- Project card -->
+        <div class="container projectCard filterDiv environment">
+            <div class="row">
+                <div class="card col-md-12">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="" class="card-img" alt="Project image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h5 class="card-title">Project Name</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="card-text">Brief description of the project</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <p class="card-text">
+                                            <span class="badge badge-pill">Category</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p class="card-text">
+                                            <button type="button" class="btn btn-outline-primary">Join</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project card -->
+        <div class="container projectCard">
+            <div class="row">
+                <div class="card col-md-12">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="" class="card-img" alt="Project image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h5 class="card-title">Project Name</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="card-text">Brief description of the project</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <p class="card-text">
+                                            <span class="badge badge-pill">Category</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p class="card-text">
+                                            <button type="button" class="btn btn-outline-primary">Join</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project card -->
+        <div class="container projectCard">
+            <div class="row">
+                <div class="card col-md-12">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="" class="card-img" alt="Project image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h5 class="card-title">Project Name</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="card-text">Brief description of the project</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <p class="card-text">
+                                            <span class="badge badge-pill">Category</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p class="card-text">
+                                            <button type="button" class="btn btn-outline-primary">Join</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+
+
+    <script>
+        filterSelection("all")
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("filterDiv");
+            if (c == "all") c = "";
+            for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+        }
+
+        function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+            }
+        }
+
+        function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function(){
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
 </body>
+
 </html>
