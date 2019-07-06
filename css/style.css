@@ -87,7 +87,6 @@ h1, h2, h3, h4, h5, h6, figure {
 .container-wrap {
   max-width: 1060px;
   margin: 0 auto;
-  margin-bottom: 1em;
   background: #fff;
 }
 @media screen and (max-width: 768px) {
@@ -106,7 +105,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav .top-menu {
   margin: 0;
-  padding: 34px 30px;
+  padding: 14px 30px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .top-menu {
@@ -485,7 +484,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-blog,
 #fh5co-counter,
 #fh5co-footer {
-  padding: 6em 3em;
+  padding: 2em 3em;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -512,7 +511,7 @@ background-color: #E3F6E9;
 }
 
 .services h3 {
-  font-size: 13px;
+  font-size: 20px;
   font-family: "Source Sans Pro", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1266,6 +1265,7 @@ input[type="text"] {
   -o-transition: 0.5s;
   transition: 0.5s;
   padding: 8px 20px;
+  width: 8em;
 }
 .btn.btn-md {
   padding: 8px 20px !important;
@@ -1485,7 +1485,6 @@ input[type="text"] {
 
 /*# sourceMappingURL=style.css.map */
 
-<<<<<<< HEAD
 .services img {
   padding: 15px;
   height: 250px; 
@@ -1512,8 +1511,9 @@ input[type="text"] {
 =======
 /* The sidebar menu */
 .sidenav {
-    background-color: #91C7B1;
+    background-color: ##66D37E;
     height: 100vh;
+    min-height: 100vh;
 }
 
 /* User Window in Sidebar */
@@ -1556,7 +1556,7 @@ input[type="text"] {
 
 /* Add a light grey background on mouse-over */
 .btn:hover {
-    background-color: #ddd;
+    background-color: #E3F6E9;
 }
 
 /* Add a dark background to the active button */
@@ -1570,4 +1570,13 @@ input[type="text"] {
     color: white;
 }
 
->>>>>>> 9e46bf2f5a911668daf20a49d941f835009e380f
+.bg-one{
+  background-color: #e8e8e8;
+  
+}
+
+.bg-two{
+  background-color: #E3F6E9;
+  opacity: 1;
+  
+}
