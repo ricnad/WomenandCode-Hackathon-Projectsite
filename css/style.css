@@ -105,6 +105,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-nav .top-menu {
+  margin: 0;
   padding: 34px 30px;
 }
 @media screen and (max-width: 768px) {
@@ -474,6 +475,9 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #fafafa;
 }
 
+.fh5co-services {
+    margin: 0;
+}
 #fh5co-about,
 #fh5co-services,
 #fh5co-contact,
@@ -502,6 +506,11 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+
+.services:hover {
+background-color: #E3F6E9;
+}
+
 .services h3 {
   font-size: 13px;
   font-family: "Source Sans Pro", sans-serif;
@@ -531,6 +540,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .services .icon i {
+  padding-top: 2px;
   display: table-cell;
   vertical-align: middle;
   font-size: 40px;

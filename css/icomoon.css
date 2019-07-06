@@ -463,7 +463,7 @@
   content: "\e90f";
 }
 .icon-diamond:before {
-  content: "\e910";
+  background-image: url('img/Grow.png');
 }
 .icon-display2:before {
   content: "\e911";
