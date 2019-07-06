@@ -1,6 +1,7 @@
 /* The sidebar menu */
 .sidenav {
     background-color: #91C7B1;
+    height: 100vh;
 }
 
 /* User Window in Sidebar */
@@ -17,13 +18,13 @@
 }
 
 .filterDiv {
-    float: left;
+    /* float: left;
     background-color: #2196F3;
     color: #ffffff;
     width: 100px;
     line-height: 100px;
     text-align: center;
-    margin: 2px;
+    margin: 2px; */
     display: none; /* Hidden by default */
 }
 
@@ -49,6 +50,11 @@
 /* Add a dark background to the active button */
 .btn.active {
     background-color: #666;
+    color: white;
+}
+
+.bg-red {
+    background-color: gray;
     color: white;
 }
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- bootstrap css -->
+   <!-- bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,51 +13,83 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- bootstrap js -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="style/style.css">
 
-    <title>Branch Out</title>
+  <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+  
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- Icomoon Icon Fonts-->
+  <link rel="stylesheet" href="css/icomoon.css">
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="css/bootstrap.css">
 
+
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href="css/magnific-popup.css">
+
+  <!-- Flexslider  -->
+  <link rel="stylesheet" href="css/flexslider.css">
+
+  <!-- Theme style  -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Modernizr JS -->
+  <script src="js/modernizr-2.6.2.min.js"></script>
+
+  <title>Seed a Project</title>
 </head>
 <body>
-<div class="container">
+
+<nav class="fh5co-nav" role="navigation">
+    <div class="container-wrap">
+      <div class="top-menu">
+        <div class="row">
+          <div class="col-xs-2">
+            <div id="fh5co-logo"><a href="index.html">BranchOut</a></div>
+          </div>
+          <div class="col-xs-10 text-right menu-1">
+            <ul>
+              <li><a href="contact.html">Login</a></li> /
+              <li><a href="contact.html">Register</a></li>
+            </ul>
+          </div>
+          <div class="descriptiontext">...where projects grow!</div>
+        </div>
+        
+      </div>
+    </div>
+  </nav>
+
+<div id="fh5co-services" class="container">
     <div class="row">
     <div class="sidenav text-center col-3">
         <div class="user">
-            <img class="img-user rounded-circle mt-2" src="img/avatar2.jpg" alt="user image">
-            <p class="user-name mt-2 mb-0">First Lastname</p>
-            <p class="user-since mb-0">Member since:</p>
+            <img class="img-user img-fluid rounded-circle mt-2" src="img/avatar2.jpg" alt="user image">
+            <p class="user-name mt-2 mb-0">Lisa Wunderlich</p>
+            <p class="user-since mb-0 font-weight-bold">Member since:</p>
             <p class="user-since">June 2019</p>
+             <p class="user-since mb-0 font-weight-bold">Role:</p>
+            <p class="user-since">Participant</p>
+             <p class="user-since mb-0 font-weight-bold">Experience level:</p>
+            <p class="user-since">Educator</p>
         </div>
 
             <div class="myBtnContainer ">
-                <button class="btn active  m-1" onclick="filterSelection('all')"> Show all</button>
-                <button class="btn  m-1" onclick="filterSelection('environment')"> Environment</button>
-                <button class="btn m-1" onclick="filterSelection('tech')"> Tech</button>
-                <button class="btn  m-1" onclick="filterSelection('art')"> Art</button>
+                <button class="btn active col-10 m-1" onclick="filterSelection('all')"> Show all</button>
+                <button class="btn col-10 m-1" onclick="filterSelection('environment')"> Environment</button>
+                <button class="btn col-10 m-1" onclick="filterSelection('tech')"> Tech</button>
+                <button class="btn col-10 m-1" onclick="filterSelection('art')"> Art</button>
             </div>
 
     </div>
 
     <!-- Page content -->
     <div class="main col-8">
-        <div class="ml-300">
-            <div class="filterDiv environment">BMW</div>
-            <div class="filterDiv colors tech">Orange</div>
-            <div class="filterDiv art">Volvo</div>
-            <div class="filterDiv art">Red</div>
-            <div class="filterDiv cars animals">Mustang</div>
-            <div class="filterDiv colors">Blue</div>
-            <div class="filterDiv animals">Cat</div>
-            <div class="filterDiv animals">Dog</div>
-            <div class="filterDiv fruits">Melon</div>
-            <div class="filterDiv fruits animals">Kiwi</div>
-            <div class="filterDiv fruits">Banana</div>
-            <div class="filterDiv fruits">Lemon</div>
-            <div class="filterDiv animals">Cow</div>
-        </div>
-
         <!-- Project card -->
-        <div class="container projectCard filterDiv environment">
+        <div class="container projectCard filterDiv environment m-2">
             <div class="row">
                 <div class="card col-md-12">
                     <div class="row">
@@ -68,7 +100,7 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <h5 class="card-title">Project Name</h5>
+                                        <h5 class="card-title">Project Environment</h5>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -81,6 +113,7 @@
                                         <p class="card-text">
                                             <span class="badge badge-pill">Category</span>
                                         </p>
+                                        <i class="fa fa-pagelines"></i>
                                     </div>
                                     <div class="col-md-2">
                                         <p class="card-text">
@@ -96,7 +129,7 @@
         </div>
 
         <!-- Project card -->
-        <div class="container projectCard">
+        <div class="container projectCard filterDiv tech m-2">
             <div class="row">
                 <div class="card col-md-12">
                     <div class="row">
@@ -107,7 +140,7 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <h5 class="card-title">Project Name</h5>
+                                        <h5 class="card-title">Project Tech</h5>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -120,10 +153,11 @@
                                         <p class="card-text">
                                             <span class="badge badge-pill">Category</span>
                                         </p>
+                                        <i class="fa fa-laptop"></i>
                                     </div>
                                     <div class="col-md-2">
                                         <p class="card-text">
-                                            <button type="button" class="btn btn-outline-primary">Join</button>
+                                            <button type="button" class="btn btn-outline-primary bg-red">Private</button>
                                         </p>
                                     </div>
                                 </div>
@@ -135,7 +169,7 @@
         </div>
 
         <!-- Project card -->
-        <div class="container projectCard">
+        <div class="container projectCard filterDiv art m-2">
             <div class="row">
                 <div class="card col-md-12">
                     <div class="row">
@@ -146,7 +180,7 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <h5 class="card-title">Project Name</h5>
+                                        <h5 class="card-title">Project Art</h5>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -159,6 +193,7 @@
                                         <p class="card-text">
                                             <span class="badge badge-pill">Category</span>
                                         </p>
+                                        <i class="fa fa-paint-brush"></i>
                                     </div>
                                     <div class="col-md-2">
                                         <p class="card-text">
