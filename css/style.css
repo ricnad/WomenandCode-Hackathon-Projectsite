@@ -1511,8 +1511,9 @@ input[type="text"] {
 =======
 /* The sidebar menu */
 .sidenav {
-    background-color: #91C7B1;
+    background-color: ##66D37E;
     height: 100vh;
+    min-height: 100vh;
 }
 
 /* User Window in Sidebar */
@@ -1555,7 +1556,7 @@ input[type="text"] {
 
 /* Add a light grey background on mouse-over */
 .btn:hover {
-    background-color: #ddd;
+    background-color: #E3F6E9;
 }
 
 /* Add a dark background to the active button */
@@ -1567,4 +1568,15 @@ input[type="text"] {
 .bg-red {
     background-color: gray;
     color: white;
+}
+
+.bg-one{
+  background-color: #e8e8e8;
+  
+}
+
+.bg-two{
+  background-color: #E3F6E9;
+  opacity: 1;
+  
 }
